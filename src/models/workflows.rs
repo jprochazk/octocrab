@@ -25,6 +25,7 @@ pub struct Run {
     pub name: String,
     pub head_branch: String,
     pub head_sha: String,
+    pub run_attempt: i64,
     pub run_number: i64,
     pub event: String,
     pub status: String,
